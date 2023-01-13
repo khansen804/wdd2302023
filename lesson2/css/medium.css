@@ -1,0 +1,58 @@
+@media screen and (min-width: 32.5em) {
+    .card {
+        background-color: mediumpurple;
+        height: 100%;
+    }
+
+    .col1 {
+        grid-area: col1;
+    }
+
+    .col2 {
+        grid-area: col2;
+    }
+
+    .col3 {
+        grid-area: col3;
+    }
+
+
+    .grid-container {
+        display: grid;
+        row-gap: 20px;
+        grid-template-areas:
+    'col1 col2'
+    'col3 col3';
+    }
+
+    .top-card {
+        height: 5%;
+    }
+
+    .grid-item {
+        padding: 20px;
+    }
+
+    .grid-container {
+        display: grid;
+
+    }
+
+    img {
+        width: 250px;
+    }
+
+    .large {
+        width: 400px;
+    }
+
+    p {
+        font-size: 15px;
+        font-family: 'PT Serif', serif;
+    }
+    footer {
+        padding-top: 10px;
+
+    }
+
+}

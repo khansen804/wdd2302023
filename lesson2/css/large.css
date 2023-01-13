@@ -1,0 +1,25 @@
+@media screen and (min-width: 64em) {
+    .card {
+        background-color: cornflowerblue;
+    }
+    .col1 {
+        grid-area: col1;
+    }
+    .col2 {
+        grid-area: col2;
+    }
+    .col3 {
+        grid-area: col3;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+    'col1  col2 col3';
+    }
+    .large {
+        width: 250px;
+    }
+    p {
+        font-size: 10px;
+    }
+}
